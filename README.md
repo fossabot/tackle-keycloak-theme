@@ -1,4 +1,6 @@
 # tackle-keycloak-theme
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Ftackle-keycloak-theme.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Ftackle-keycloak-theme?ref=badge_shield)
+
 
 Keycloak theme for the Tackle project
 
@@ -29,3 +31,7 @@ mvn clean install
 ```shell
 podman build -t tackle-keycloak-init:$(mvn org.apache.maven.plugins:maven-help-plugin:3.2.0:evaluate -Dexpression=project.version -q -DforceStdout) -f Dockerfile.init .
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkonveyor%2Ftackle-keycloak-theme.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkonveyor%2Ftackle-keycloak-theme?ref=badge_large)
